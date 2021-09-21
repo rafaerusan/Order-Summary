@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,21 +15,34 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
 
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
+<body class="body">
+  <div id="container">
+    <!-- <img id="image" src="images/illustration-hero.svg"> -->
+    <div id="image"></div>
+    <div id="summary-container">
+      <div class="summary-text"> Order Summary</div>
+      <div class="grey-text">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</div>
+    </div>
+    <div class="plan-container">
+      <img  class="icon" src="images/icon-music.svg">
+      <div class="plan-text">Annual Plan
+        <div class="grey-text" id="price">$59.99/year</div>
+      
+      </div>
+      
+      <a href="google.com" id="btn">
+        Change
+      </a>
+    </div>
+    <div id="payment-row">
+      <button class="button">Proceed to Payment</button>
+    </div>
+    <div id="cancel-row">
+      <button class="button">Cancel Order</button>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Rafael</a>.

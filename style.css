@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+.body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    width: 450px;
+    height: 750px;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    
+    
+}
+
+.summary-text{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.plan-text{
+    font-weight: bolder;
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+    padding: 10px;
+}
+#price{
+    position: relative;
+    left: -10px;
+}
+
+.grey-text{
+    font-size: 16px;
+    padding: 5px;
+    color:hsl(224, 23%, 55%);
+    text-align: center;
+  
+    
+}
+
+#image{
+    background-image: url("images/illustration-hero.svg");
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 400px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px;
+    position: relative;
+    top: -20px;
+}
+
+#summary-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+}
+
+.plan-container{
+    border-radius: 25px;
+    background-color:#f8f9fe;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+#bottom-buttons{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.button:hover{
+    background-color:#382ae1;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+.button{
+    width: 400px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: none;
+    color: #787d93;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#btn{
+    position: relative;
+    left: 100px;
+    font-weight: bold;
+}
+
+.icon{
+    padding: 5px;
+}
+
+#cancel-row{
+    padding: 30px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#payment-row{
+    padding-top: 35px;
+
+}
+
+
+
